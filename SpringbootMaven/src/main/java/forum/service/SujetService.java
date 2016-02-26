@@ -5,13 +5,13 @@
  */
 package forum.service;
 
-import forum.entity.Effacemoi;
+import forum.entity.Sujet;
 import org.springframework.data.repository.CrudRepository;
 
 /**
  *
  * @author admin
  */
-public interface EffacemoiService extends CrudRepository<Effacemoi, Long>{
+public interface SujetService extends CrudRepository<Sujet, Long>{
     
 }
